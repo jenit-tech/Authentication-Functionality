@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+
+/* Styles for the Header component */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  /* Optional: add a background color to see the header clearly */
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+  list-style-type: none;
+  padding: 0; /* Ensure there's no padding on the list */
+}
+
+.nav-link {
+  margin: 0 10px;
+}
